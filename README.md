@@ -47,7 +47,7 @@ It is recommended to backup the Flash before trying to update, try this command 
 
 Read from flash
 
-- sudo ./sunxi-fel -p spiflash-read 0 2097152 w25q16_backup.bin
+- sudo ./sunxi-fel -p spiflash-read 0 4194304 w25q16_backup.bin
 
 - - sunxi-fel Usage: https://linux-sunxi.org/FEL
 
