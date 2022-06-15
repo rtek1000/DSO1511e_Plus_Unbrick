@@ -2,7 +2,7 @@
 
 
 To unbrick the DSO1511e+, after trying to update using the wrong file, it wasn't unzipped,
-- (Special thanks to pcprogrammer from the eevblog.com forum, thanks for your patience in guiding step by step!)
+- (Special thanks to **pcprogrammer** from the eevblog.com forum, thanks for your patience in guiding step by step!)
 - (Sorry, but I don't know this hardware or the software, any questions please contact the developers)
 
 Maybe you can try these steps:
