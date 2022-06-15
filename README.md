@@ -15,7 +15,7 @@ Maybe you can try these steps:
 - 6 - Turn off the DSO151e+.
 - 7 - Remove the SD card.
 - 8 - Restart the DSO1511e+.
-- 9 - Enter update mode
+- 9 - Enter update mode (commands described in the steps provided by the supplier).
 - 10 - Update the DSO1511e+ following all supplier steps
 - 11 - Perform the post-update commands described in the steps provided by the supplier (calibraton etc)
 
