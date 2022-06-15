@@ -44,7 +44,7 @@ Make SD card:
 
 
 Step 5 - Back up flash memory.
-It is recommended to backup the Flash before trying to update, try this command below:
+- It is recommended to backup the Flash before trying to update, try this command below:
 (But if it doesn't work, it may be necessary to remove the W25Q32 memory from the PCB and use an EEPROM programmer such as CH341 for example)
 
 Read from flash
