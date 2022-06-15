@@ -1,13 +1,14 @@
 # DSO1511e-_Unbrick
 
 
-To unbrick the DSO1511e+ [after trying to update using the wrong file (it wasn't unzipped)] You can try these steps:
+To unbrick the DSO1511e+, after trying to update using the wrong file, it wasn't unzipped, maybe you can try these steps:
 (Special thanks to pcprogrammer from the eevblog.com forum, thanks for your patience in guiding step by step!)
+(Sorry, but I don't know this hardware or the software, any questions please contact the developers)
 
 1 - Create an sd card with bootloader that activates the usb port to load the binary file in flash.
 2 - Insert the SD card (Contacts facing the DSO1511e+ board).
-3 - Keep the power button pressed (Bootloader is unable to keep the DSO1511e+ turned on by itself).
-4 - Test if "ID 1f3a:efe8 Allwinner Technology sunxi SoC OTG connector in FEL/flashing mode" appears using the lsusb command.
+3 - Keep the DSO151e+ power button pressed (Bootloader is unable to keep the DSO1511e+ turned on by itself).
+4 - Test if "ID 1f3a:efe8 Allwinner Technology sunxi SoC OTG connector in FEL/flashing mode" appears using the "lsusb" command.
 5 - Load the binary file into flash (Bootloader + Firmware Update).
 6 - Turn off the DSO151e+.
 7 - Remove the SD card.
