@@ -35,9 +35,9 @@ Step 1 - Create an sd card with bootloader that activates the usb port to load t
 - Write the /sunxi_stuff/fel-sdboot.sunxi file to an SD card using the command:
 
 Make SD card:
-'''
-sudo dd if=fel-sdboot.sunxi of=/dev/sdc bs=1024 seek=8
-'''
+
+- sudo dd if=fel-sdboot.sunxi of=/dev/sdc bs=1024 seek=8
+
 
 (Make sure your card is at /dev/sdc, or modify the command with the correct letter, you can "mount" this device and use the "df -h" command to see the partition name, for example sdc1 ==> sdc, sdf1 ==> sdf)
 
@@ -46,19 +46,17 @@ It is recommended to backup the Flash before trying to update, try this command 
 (But if it doesn't work, it may be necessary to remove the W25Q32 memory from the PCB and use an EEPROM programmer such as CH341 for example)
 
 Read from flash
-'''
-sudo ./sunxi-fel -p spiflash-read 0 2097152 w25q16_backup.bin
-'''
 
-- sunxi-fel Usage: https://linux-sunxi.org/FEL
+- sudo ./sunxi-fel -p spiflash-read 0 2097152 w25q16_backup.bin
+
+- - sunxi-fel Usage: https://linux-sunxi.org/FEL
 
 Step 5 - Load the binary file into flash (Bootloader + Firmware Update).
 
 - To write the file to W25Q32 memory, use this command:
 Write to flash
-'''
-sudo ./sunxi-fel -p spiflash-write 0 DSO1511e+_v1.2.7_and_bootloader_for_W25Q32.bin
-'''
+
+- sudo ./sunxi-fel -p spiflash-write 0 DSO1511e+_v1.2.7_and_bootloader_for_W25Q32.bin
 
 Note 1:
 Used the program xgpro (for the TL866II Plus recorder) to combine (merge) the binary files.
@@ -76,10 +74,8 @@ How to compile your own bootloader:
 
 Make the modifications to the fnirsi_1013d_bootloader.c file.
 
-'''
-cd fnirsi_1013d_bootloader
-make
-'''
+- cd fnirsi_1013d_bootloader
+- make
 
 The binary file is in the folder: 
 /fnirsi_1013d_bootloader/dist/Debug/GNU_ARM-Linux/fnirsi_1013d_bootloader.bin
@@ -89,7 +85,5 @@ Note 3:
 
 To compile you must have arm-none-eabi-gcc installed:
 
-'''
-sudo apt-get update
-sudo apt install arm-none-eabi-gcc
-'''
+- sudo apt-get update
+- sudo apt install arm-none-eabi-gcc
