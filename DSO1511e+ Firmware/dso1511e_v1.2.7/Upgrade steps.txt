@@ -1,0 +1,28 @@
+/**************** Please strictly follow the steps below************************
+open menu->Set,long press "V" button display current version.
+
+Make sure the battery is green before upgrading
+
+1. In the shutdown state, press and hold the [mV] and [power] buttons at the same time.
+
+2. After a few seconds, the firmware upgrade picture appears on the screen. Now connect usb to computer.
+
+3. A Udisk appears on the computer. Copy dso1511e_vxxx.bin to the Udisk.
+
+4. Disconnect usb link and remove the usb cable (**very important**).
+
+5. Click the "Power" button, and then click the "ok" button.
+
+6. Shut down and restart after the upgrade is complete.
+
+prompt:
+    * The first boot takes a long time, please be patient.
+
+   * If your version is v1.1.8 or older, you may not see the measurement list after the upgrade, please follow the steps below:
+       Open Menu->Set, then long press the "s" button.
+
+    * Some old versions may need to be recalibrated, depending on whether the waveform is offset after the upgrade.
+       How to do: Menu->Aux->ok (Remove the probe first).
+     
+
+Do you have any good suggestions for the new firmware? Contact us: 1101093749@qq.com

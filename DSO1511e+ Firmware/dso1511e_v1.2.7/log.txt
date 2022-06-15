@@ -1,0 +1,10 @@
+v1.1.8 Add cursor and power button to combine other buttons.
+v1.1.9 You can modify the measurement background color.(1.Menu->Set 2.long press "s")
+v1.2.0 optimize Auto, optimize square wave generator (adjustable in real time).
+v1.2.1 Bold font.
+v1.2.2 Optimize measurement accuracy.
+v1.2.3 Simple optimization for calibration
+v1.2.4 optimization "Auto"---reduce time.
+v1.2.5 optimization "Auto"---center the waveform.
+v1.2.6 Increase "high refresh rate" mode. (1.Menu->Disp, 2.Long press the "Run/Stop" button to enable or disable)
+v1.2.7 Solved the bug of screenshot in v1.2.6 version.
