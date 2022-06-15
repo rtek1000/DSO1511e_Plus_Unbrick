@@ -5,17 +5,17 @@ To unbrick the DSO1511e+, after trying to update using the wrong file, it wasn't
 - (Special thanks to pcprogrammer from the eevblog.com forum, thanks for your patience in guiding step by step!)
 - (Sorry, but I don't know this hardware or the software, any questions please contact the developers)
 
-1 - Create an sd card with bootloader that activates the usb port to load the binary file in flash.
-2 - Insert the SD card (Contacts facing the DSO1511e+ board).
-3 - Keep the DSO151e+ power button pressed (Bootloader is unable to keep the DSO1511e+ turned on by itself).
-4 - Test if "ID 1f3a:efe8 Allwinner Technology sunxi SoC OTG connector in FEL/flashing mode" appears using the "lsusb" command.
-5 - Load the binary file into flash (Bootloader + Firmware Update).
-6 - Turn off the DSO151e+.
-7 - Remove the SD card.
-8 - Restart the DSO1511e+.
-9 - Enter update mode
-10 - Update the DSO1511e+ following all supplier steps
-11 - Perform the post-update commands described in the steps provided by the supplier (calibraton etc)
+- 1 - Create an sd card with bootloader that activates the usb port to load the binary file in flash.
+- 2 - Insert the SD card (Contacts facing the DSO1511e+ board).
+- 3 - Keep the DSO151e+ power button pressed (Bootloader is unable to keep the DSO1511e+ turned on by itself).
+- 4 - Test if "ID 1f3a:efe8 Allwinner Technology sunxi SoC OTG connector in FEL/flashing mode" appears using the "lsusb" command.
+- 5 - Load the binary file into flash (Bootloader + Firmware Update).
+- 6 - Turn off the DSO151e+.
+- 7 - Remove the SD card.
+- 8 - Restart the DSO1511e+.
+- 9 - Enter update mode
+- 10 - Update the DSO1511e+ following all supplier steps
+- 11 - Perform the post-update commands described in the steps provided by the supplier (calibraton etc)
 
 Note The boot image does not appear after performing these procedures, due to the improvised bootloader.
 
