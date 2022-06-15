@@ -11,13 +11,14 @@ Maybe you can try these steps:
 - 2 - Insert the SD card (Contacts facing the DSO1511e+ board).
 - 3 - Keep the DSO151e+ power button pressed (After writing the firmware it manages to keep it powered up).
 - 4 - Test if "ID 1f3a:efe8 Allwinner Technology sunxi SoC OTG connector in FEL/flashing mode" appears using the "lsusb" command.
-- 5 - Load the binary file into flash (Bootloader + Firmware Update).
-- 6 - Turn off the DSO151e+.
-- 7 - Remove the SD card.
-- 8 - Restart the DSO1511e+.
-- 9 - Enter update mode (commands described in the steps provided by the supplier).
-- 10 - Update the DSO1511e+ following all supplier steps
-- 11 - Perform the post-update commands described in the steps provided by the supplier (calibraton etc)
+- 5 - Back up flash memory.
+- 6 - Load the binary file into flash (Bootloader + Firmware Update).
+- 7 - Turn off the DSO151e+.
+- 8 - Remove the SD card.
+- 9 - Restart the DSO1511e+.
+- 10 - Enter update mode (commands described in the steps provided by the supplier).
+- 11 - Update the DSO1511e+ following all supplier steps
+- 12 - Perform the post-update commands described in the steps provided by the supplier (calibraton etc)
 
 Note The boot image does not appear after performing these procedures, due to the improvised bootloader.
 
@@ -42,6 +43,7 @@ Make SD card:
 (Make sure your card is at /dev/sdc, or modify the command with the correct letter, you can "mount" this device and use the "df -h" command to see the partition name, for example sdc1 ==> sdc, sdf1 ==> sdf)
 
 
+Step 5 - Back up flash memory.
 It is recommended to backup the Flash before trying to update, try this command below:
 (But if it doesn't work, it may be necessary to remove the W25Q32 memory from the PCB and use an EEPROM programmer such as CH341 for example)
 
@@ -51,7 +53,7 @@ Read from flash
 
 - - sunxi-fel Usage: https://linux-sunxi.org/FEL
 
-Step 5 - Load the binary file into flash (Bootloader + Firmware Update).
+Step 6 - Load the binary file into flash (Bootloader + Firmware Update).
 
 - To write the file to W25Q32 memory, use this command:
 Write to flash
