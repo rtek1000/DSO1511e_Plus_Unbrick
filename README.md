@@ -1,4 +1,4 @@
-# DSO1511e-_Unbrick
+# DSO1511e+ Unbrick
 
 
 To unbrick the DSO1511e+, after trying to update using the wrong file, it wasn't unzipped, maybe you can try these steps:
