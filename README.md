@@ -9,7 +9,7 @@ Maybe you can try these steps:
 
 - 1 - Create an sd card with bootloader that activates the usb port to load the binary file in flash.
 - 2 - Insert the SD card (Contacts facing the DSO1511e+ board).
-- 3 - Keep the DSO151e+ power button pressed (Bootloader is unable to keep the DSO1511e+ turned on by itself).
+- 3 - Keep the DSO151e+ power button pressed (After writing the firmware it manages to keep it powered up).
 - 4 - Test if "ID 1f3a:efe8 Allwinner Technology sunxi SoC OTG connector in FEL/flashing mode" appears using the "lsusb" command.
 - 5 - Load the binary file into flash (Bootloader + Firmware Update).
 - 6 - Turn off the DSO151e+.
