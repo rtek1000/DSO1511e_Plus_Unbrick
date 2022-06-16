@@ -5,6 +5,8 @@ To unbrick the DSO1511e+, after trying to update using the wrong file, it wasn't
 - (Special thanks to **pcprogrammer** from the eevblog.com forum, thanks for your patience in guiding step by step!)
 - (Sorry, but I don't know this hardware or the software, any questions please contact the developers)
 
+(Note: If anyone can share the original firmware dump I would be grateful)
+
 Maybe you can try these steps:
 
 - 1 - Create an sd card with bootloader that activates the usb port to load the binary file in flash.
