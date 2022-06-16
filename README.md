@@ -63,7 +63,7 @@ Write to flash
 - sudo ./sunxi-fel -p spiflash-write 0 DSO1511e+_v1.2.7_and_bootloader_for_W25Q32.bin
 
 Note 1:
-Used the program xgpro (for the TL866II Plus recorder) to combine (merge) the binary files.
+Used the program xgpro (for the TL866II Plus programmer) to combine (merge) the binary files.
 
 - Place the bootloader binary file at address 0x00.
 - Place the firmware file at address 0x10000.
